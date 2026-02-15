@@ -140,3 +140,5 @@ test/.test_coverage.dart
 # ==============================
 app.*.symbols
 app.*.map.json
+.metadata
+.firebase/
