@@ -1,0 +1,142 @@
+# ==============================
+# Miscellaneous
+# ==============================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+
+# ==============================
+# IntelliJ / Android Studio
+# ==============================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Flutter / Dart
+# ==============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+lib/l10n/app_localizations.dart
+lib/l10n/app_localizations_*.dart
+
+# ==============================
+# Assets — images, données, polices 🖼️
+# ==============================
+assets/images/
+assets/icon/
+assets/data/
+assets/animations/
+assets/fonts/
+
+web/icons
+
+# ==============================
+# Firebase / Secrets 🔐
+# ==============================
+lib/firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
+**/firebase_options.dart
+.firebaserc
+firebase.json
+
+# ==============================
+# Environment / Keys
+# ==============================
+.env
+.env.*
+*.env
+env.dart
+secrets.dart
+secrets/
+
+# ==============================
+# Android
+# ==============================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+*.keystore
+
+# ==============================
+# iOS / macOS
+# ==============================
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Pods/
+ios/.symlinks/
+macos/Flutter/ephemeral/
+macos/Pods/
+**/Pods/
+**/Podfile.lock
+
+# ==============================
+# Web
+# ==============================
+web/.dart_tool/
+
+# ==============================
+# Windows
+# ==============================
+windows/flutter/ephemeral/
+
+# ==============================
+# Linux
+# ==============================
+linux/flutter/ephemeral/
+
+# ==============================
+# Coverage / Tests
+# ==============================
+coverage/
+test/.test_coverage.dart
+
+# ==============================
+# Symbols & Debug
+# ==============================
+app.*.symbols
+app.*.map.json
